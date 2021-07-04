@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Min You">
+    <meta name="description" content="Notion like web template made with fullpage.js">
+
+    <!-- page title -->
+    <title>minu template</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="minu-template.css">
+
+    <!-- web font - nanum square -->
+    <!-- You can change font but size of them may change too  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<!-- DON'T CHANGE 'ID' -->
+<!-- IF you change, fullpage.js will not work.-->
+
+<body class="light-mode">
+    <!-- you can change class = "light-mode", "dark-mode" -->
+
+    <!-- COLOR REFERENCE -->
+
+    <!-- text color -->
+    <!-- class = "gray", "brown", "orange", "yellow", "green", "blue", "purple", "pink", "red" -->
+
+    <!-- text background color -->
+    <!-- class = "gray-back", "brown-back", "orange-back", "yellow-back", "green-back", "blue-back", "purple-back", "purple-back", "pink-back", "red-back" -->
+
+
+    <div id="fullpage">
+        <div class="section active container" id="section0">
+            <!-- You must increse scetion number to use fullpage.js  -->
+            <div class="container">
+                <!-- class "container" make the fraim of view, you should have it -->
+                <!-- under the class "container", you must place class "content" to work well -->
+
+                <div class="content wide">
+                    <!-- You can use view option like "normal", "wide" -->
+
+                    <img src="cute.png" class="small left">
+                    <!-- img tag has options about 'size' and 'positioning' -->
+                    <!-- size option / class = "large", "medium", "small", "xsmall" -->
+                    <!-- positioning option / class = "center", "left", "right" -->
+
+                    <div class="spacer"></div>
+                    <!-- you can use class = "spacer" for space between content -->
+
+                    <div class="h1">minu template</div>
+                    <!-- There is a options for text form / class = "h1", "h2", "h3", "smaill-text"-->
+
+                    <div class="h2">Notion like <span class="blue">Web template</span> made with
+                        <!-- you can use 'span' tag for inline text edit -->
+
+                        <a class="light-mode orange" href="https://github.com/alvarotrigo/fullpage.js">fullpage.js</a>
+                        <!-- you can use 'a' tag with class ="light-mode", "dark-mode" and also you can chage colors -->
+                    </div>
+                    <div class="spacer"></div>
+                    <div>
+                        <a class="light-mode" href="minu-template.html">한국어</a>를 원하나요?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section" id="section1">
+            <!-- You must increse scetion number to use fullpage.js  -->
+
+            <div class="container">
+                <div class="content wide blue-back right">
+                    <!-- content -->
+                    Examples <br>
+                    Wow, It is awesome
+                    It is awesome! justify-content: center;
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section" id="section2">
+            <div class="container">
+                <div class="content wide">
+                    You can make anything <br>
+                    what you want <span class="small-text">It's real</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="section3">
+            <div class="container">
+                <div class="content wide">
+                    <div class="light-quote">
+                        this is quote!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="section4">
+            <div class="container">
+                <div class="content wide bold strike italic">
+                    Thank You!
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section5">
+            <div class="container">
+                <div class="content wide">
+                    <div class="h1">
+                        안녕
+                    </div>
+                    <div class="h2">
+                        하세요
+                    </div>
+                    <div class="h3 italic">
+                        이거는
+                    </div>
+                    테스트입니다.
+                    <div class="hr"></div>
+                    <div class="light-quote">
+                        후움
+                    </div>
+                    <br>
+                    안녕하세요.
+                    <ul>
+                        <li>hello</li>
+                        <li>world!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js part -->
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript" src="minu-template.js"></script>
+</body>
+
+</html>

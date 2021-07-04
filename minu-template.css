@@ -1,0 +1,208 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size: 2.5vmin;
+}
+.content {
+    font-size: 100%;
+    line-height: 1.5;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.normal {
+    width: 60vw;
+}
+
+.wide {
+    width: 80vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.large {
+    width: 500px;
+}
+
+.medium {
+    width: 300px;
+}
+
+.small {
+    width: 200px;
+}
+
+.xsmall {
+    width: 100px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #303437;
+    color: #ebebeb;
+}
+
+.h1 {
+    margin-bottom: 3vh;
+    font-size: 200%;
+    display: block;
+    font-weight: 600;
+}
+
+.h2 {
+    margin-bottom: 2vh;
+    font-size: 160%;
+    font-weight: 600;
+    display: block;
+}
+
+.h3 {
+    margin-bottom: 1.3vh;
+    font-size: 130%;
+    font-weight: 600;
+    display: block;
+}
+
+.small-text {
+    font-size: 60%;
+}
+
+.bold {
+    font-weight: 700;
+    display: inline;
+}
+
+.spacer {
+    margin-top: 5vh;
+}
+
+.light-quote {
+    border-left: 2px solid #000000;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.dark-quote {
+    border-left: 3px solid #ebebeb;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+li {
+    line-height: 2;
+}
+
+.hr {
+    border: solid 1px lightgray;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.gray-back {
+    background-color: rgb(235, 235, 235);
+}
+
+.brown-back {
+    background-color: rgb(255, 229, 227);
+}
+
+.orange-back {
+    background-color: rgb(247, 235, 223);
+}
+
+.yellow-back {
+    background-color: rgb(250, 243, 221);
+}
+
+.green-back {
+    background-color: rgb(224, 236, 234);
+}
+
+.blue-back {
+    background-color: rgb(224, 235, 240);
+}
+
+.purple-back {
+    background-color: rgb(233, 228, 241);
+}
+
+.pink-back {
+    background-color: rgb(240, 224, 234);
+}
+
+.red-back {
+    background-color: rgb(247, 229, 228);
+}
+
+.gray {
+    color: rgb(155, 154, 151);
+}
+
+.brown {
+    color: rgb(96, 72, 60);
+}
+
+.orange {
+    color: rgb(206, 123, 53);
+}
+
+.yellow {
+    color: rgb(215, 172, 58);
+}
+
+.green {
+    color: rgb(76, 134, 123);
+}
+
+.blue {
+    color: rgb(48, 109, 149);
+}
+
+.purple {
+    color: rgb(105, 76, 163);
+}
+
+.pink {
+    color: rgb(192, 116, 161);
+}
+
+.red {
+    color: rgb(207, 75, 69);
+}
+
+@media (pointer:coarse) {
+    .container {
+        font-size: 2vmax;
+    }
+}
