@@ -3,8 +3,14 @@
 <image width="100px" src="/minu-logo.png"/> <br> <br>
    노션노션한 웹 템플릿, 미누
 </p>
-<br><br>
+<p align="center">
+   <a href="#소개">소개</a> | 
+   <a href="#사용법">사용법</a> | 
+   <a href="#도큐먼트">도큐먼트</a> | 
+   <a href="#라이센스">라이센스</a>
+</p>
 
+<br><br>
 
 ## 소개
 미누 템플릿은 [노션(Notion)](https://notion.so)의 영향을 받아 만들어진 웹 템플릿입니다. <br>
