@@ -102,7 +102,7 @@
 
 타이틀 : `h1`, `h2`, `h3`<br>
 작은 글씨 : `small-text`<br>
-예시 : `<div class="h1">미누 템플릿</div>`<br>
+예시 : `<div class="h1">미누 페이지</div>`<br>
 
 <br><br>
 
