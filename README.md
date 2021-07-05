@@ -1,13 +1,10 @@
 <br><br><br>
 <p align="center">
-<image width="100px" src="/minu-logo.png"/>
+<image width="100px" src="/minu-logo.png"/> <br> <br>
+   노션노션한 웹 템플릿, 미누
 </p>
-<br><br><br>
-
-
-# minu-template
-노션노션한 웹 템플릿, 미누 <br><br>
 <br><br>
+
 
 ## 소개
 미누 템플릿은 [노션(Notion)](https://notion.so)의 영향을 받아 만들어진 웹 템플릿입니다. <br>
