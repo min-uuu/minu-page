@@ -203,6 +203,6 @@ li {
 
 @media (pointer:coarse) {
     .container {
-        font-size: 2vmax;
+        font-size: 2.2vmax;
     }
 }
